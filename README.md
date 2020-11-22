@@ -1,6 +1,8 @@
-# template.dockerized-nextjs-project
+# 202011.nextjs-tailwindcss
 
-[![default](https://github.com/mazgi/template.dockerized-nextjs-project/workflows/default/badge.svg)](https://github.com/mazgi/template.dockerized-nextjs-project/actions?query=workflow%3Adefault)
+[![default](https://github.com/mazgi-showcase/202011.nextjs-tailwindcss/workflows/default/badge.svg)](https://github.com/mazgi-showcase/202011.nextjs-tailwindcss/actions?query=workflow%3Adefault)
+
+![dev env](docs/images/dev-env.png)
 
 ## How to run
 

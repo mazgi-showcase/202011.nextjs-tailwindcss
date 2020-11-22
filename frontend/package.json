@@ -6,6 +6,7 @@
     "dev": "next",
     "lint": "eslint \"src/**\"",
     "start": "next start",
+    "tailwindcss": "tailwindcss",
     "test": "jest --passWithNoTests",
     "test:coverage": "jest --passWithNoTests --coverage"
   },
@@ -17,11 +18,13 @@
     "unstated-next": "^1.1.0"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.9",
     "@types/react": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
+    "autoprefixer": "^10.0.2",
     "babel-plugin-module-resolver": "^4.0.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
@@ -30,7 +33,9 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "jest": "^26.6.3",
+    "postcss-import": "^13.0.0",
     "prettier": "^2.2.0",
+    "tailwindcss": "^2.0.1",
     "ts-jest": "^26.4.4",
     "typescript": "^4.1.2"
   }
