@@ -4,7 +4,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint": "npm run lint:es; npm run lint:style",
+    "lint:es": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:style": "stylelint \"src/**/*.{css,sass,scss}\"",
     "start": "next start",
     "tailwindcss": "tailwindcss",
     "test": "jest --passWithNoTests",
@@ -35,6 +37,11 @@
     "jest": "^26.6.3",
     "postcss-import": "^13.0.0",
     "prettier": "^2.2.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0",
     "tailwindcss": "^2.0.1",
     "ts-jest": "^26.4.4",
     "typescript": "^4.1.2"
