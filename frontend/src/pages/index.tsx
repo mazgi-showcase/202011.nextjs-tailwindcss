@@ -2,11 +2,11 @@ import { NextPage } from 'next'
 
 const Page: NextPage = () => (
   <main className="container mx-auto h-screen">
-    <div className="flex justify-center py-24">
-      <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="flex justify-center py-8">
+      <div className="max-w-sm bg-yellow-300 rounded overflow-hidden shadow-xl">
         <img
           className="w-full"
-          src="https://source.unsplash.com/random"
+          src="https://source.unsplash.com/random/480x360"
           alt="A cool pic from unsplash.com"
         />
         <div className="px-6 py-4">
